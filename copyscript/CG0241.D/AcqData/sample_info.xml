@@ -1,0 +1,262 @@
+<SampleInfo>
+  <Version>1.0</Version>
+  <Field>
+    <Name>Dilution</Name>
+    <DisplayName>Dilution</DisplayName>
+    <Value>1</Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>Inj Vol (µl)</Name>
+    <DisplayName>Inj Vol (µl)</DisplayName>
+    <Value>0</Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>Wt/Vol</Name>
+    <DisplayName>Wt/Vol</DisplayName>
+    <Value>0</Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>Sample ID</Name>
+    <DisplayName>Sample ID</DisplayName>
+    <Value>
+    </Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>Sample Name</Name>
+    <DisplayName>Sample Name</DisplayName>
+    <Value>2,6-Dimethyl-1,7-octadien-3-ol</Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>Sample Position</Name>
+    <DisplayName>Sample Position</DisplayName>
+    <Value>1</Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>Sample Type</Name>
+    <DisplayName>Sample Type</DisplayName>
+    <Value>Sample</Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>Data File</Name>
+    <DisplayName>Data File</DisplayName>
+    <Value>G:\CG0241.D</Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>Method</Name>
+    <DisplayName>Method</DisplayName>
+    <Value>50-5-10-320SD3.M</Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>Override DA Method</Name>
+    <DisplayName>Override DA Method</DisplayName>
+    <Value>
+    </Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>Level Name</Name>
+    <DisplayName>Level Name</DisplayName>
+    <Value>
+    </Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>Comment</Name>
+    <DisplayName>Comment</DisplayName>
+    <Value>50-5-10-320SD3, bpx-5, 25m, 35:1</Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>Balance Override</Name>
+    <DisplayName>Balance Override</DisplayName>
+    <Value>
+    </Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>Barcode</Name>
+    <DisplayName>Barcode</DisplayName>
+    <Value>
+    </Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>Equilib Time (min)</Name>
+    <DisplayName>Equilib Time (min)</DisplayName>
+    <Value>0</Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>Plate Code</Name>
+    <DisplayName>Plate Code</DisplayName>
+    <Value>
+    </Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>Plate Position</Name>
+    <DisplayName>Plate Position</DisplayName>
+    <Value>
+    </Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>Rack Code</Name>
+    <DisplayName>Rack Code</DisplayName>
+    <Value>
+    </Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>Rack Position</Name>
+    <DisplayName>Rack Position</DisplayName>
+    <Value>
+    </Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>23672</Name>
+    <DisplayName>Expected Barcode</DisplayName>
+    <Value>
+    </Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>23673</Name>
+    <DisplayName>Sample Amount</DisplayName>
+    <Value>
+    </Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>23674</Name>
+    <DisplayName>Vial</DisplayName>
+    <Value>1</Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>23675</Name>
+    <DisplayName>SeqPath</DisplayName>
+    <Value>C:\Programme\msdchem\1\SEQUENCE\DEFAULT.S</Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>23676</Name>
+    <DisplayName>TuneName</DisplayName>
+    <Value>atune.u</Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>23677</Name>
+    <DisplayName>TunePath</DisplayName>
+    <Value>C:\Programme\msdchem\1\5973\</Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>23678</Name>
+    <DisplayName>TuneDateStamp</DisplayName>
+    <Value>10 Jul 2013   3:19 pm</Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>OperatorName</Name>
+    <DisplayName>OperatorName</DisplayName>
+    <Value>Chris</Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>AcqTime</Name>
+    <DisplayName>AcqTime</DisplayName>
+    <Value>2013-07-17T10:34:14Z</Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>SampleLockedRunMode</Name>
+    <DisplayName>SampleLockedRunMode</DisplayName>
+    <Value>False</Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>RunCompletedFlag</Name>
+    <DisplayName>RunCompletedFlag</DisplayName>
+    <Value>True</Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+  <Field>
+    <Name>InstrumentName</Name>
+    <DisplayName>InstrumentName</DisplayName>
+    <Value>GC-MS</Value>
+    <DataType>8</DataType>
+    <Units>
+    </Units>
+  </Field>
+</SampleInfo>
