@@ -2,17 +2,21 @@
 
 import shutil
 import os
+import re
 
-
-users = ['CG', 'TG']
+users = ['CG', 'TG', 'MST', 'FM', 'JC', 'HB', 'LZ', 'NT', 'VP', 'MM', 'PP', 'SK', 'JK', 'ME', 'RE', 'SR']
 files = os.listdir(r'.')
 print(files)
-for user in users:
-    print('------\nSuche nach: ',str(user), '\n')
-    for filename in files:
+    #    print('------\nSuche nach: ',str(user), '\n')
+for filename in files:
 #        print(filename)
-        if str(filename).startswith(str(user)):
-            print('Datei', filename, 'erkannt')
+    if str(filename).endswith('.D'):
+        print('Datei ' + filename + ' erkannt')
+    for user in users:
+        #pattern = str(user)+r"[A-Za-z]?[0-9]"
+        if filename.startswith(user):
+            print('Dateinamen erkannt')
+            #MOVE BEFEHLE
         else:
             pass
 
