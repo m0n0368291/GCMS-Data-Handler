@@ -7,53 +7,46 @@ import re
 import time
 import zipfile
 
-timestamp = strftime("%Y-%m-%d %H:%M:%S", gmtime())#aktueller Zeitstempel
 files = os.listdir(r'.')#relative path from Python Script to files
-
-#https://stackoverflow.com/questions/1855095/how-to-create-a-zip-archive-of-a-directory
-def make_zipfile(output_filename, source_dir):
-    relroot = os.path.abspath(os.path.join(source_dir, os.pardir))
-    with zipfile.ZipFile(output_filename, "w", zipfile.ZIP_DEFLATED) as zip:
-        for root, dirs, files in os.walk(source_dir):
-            # add directory (needed for empty dirs)
-            zip.write(root, os.path.relpath(root, relroot))
-            for file in files:
-                filename = os.path.join(root, file)
-                if os.path.isfile(filename): # regular files only
-                    arcname = os.path.join(os.path.relpath(root, relroot), file)
-                    zip.write(filename, arcname)
-
-
 
 #list of user acronyms to be used:
 users = ['CG', 'TG', 'MST', 'FM', 'JC', 'HB', 'LZ', 'NT', 'VP', 'MM', 'PP', 'SK', 'JK', 'ME', 'RE', 'SR']
 
-
-
 #main loop for the copyscript
-while True:
+def copyscript():
+    files = os.listdir(r'.')#relative path from Python Script to files
+    timestamp = strftime("%Y-%m-%d %H:%M:%S", gmtime())#format of timestamp
+    zipstamp = strftime("%H-%M-%S", gmtime())
+    print('%s Beginning new copy cycle...'%(timestamp))
     for filename in files:
         if str(filename).endswith('.D'):
             run = str(filename)
             print('%s Run %s erkannt'%(timestamp,run))
             for user in users:
-        #        target_dir = "\\\\schulzdata\\GCMS\\%s\\"%(str(user).strip('\[\'\'\]')))#Zielordner auf dem Server
-        #        print(target_dir)
-        #        pattern = str(user)+r"[a-zA-Z]*[0-9]"
-                if run.startswith(user):
+                #target_dir = "\\\\schulzdata\\GCMS\\%s\\"%(str(user).strip('\[\'\'\]')))#target directory in network
+                #target_dir2 = "\\\\schulzdata\\GCMS\\%s\\%s"%(str(user).strip('\[\'\'\]')),str(zipstamp+' - '+run))#target directory in network for renamed files
+                pattern = str(user)+'([pPnNaAgG0-9]|_|\s){1}'#regular expression to associate users to runs
+                if re.match(pattern,run):
                     print('%s Zugehoerigkeit erkannt: %s -> %s' %(timestamp,run, user))
-                    make_zipfile('%s.zip'%(run),'.')#zips the run files into archive at location '.'
-                    shutil.move('%s.zip'%(run), '..\\MSD_Data\\%s\\'%(str(user).strip('\[\'\'\]')))
+                    ziprun = run+zipstamp #name for duplicate zipfiles
+                    shutil.make_archive(run, 'zip', run)#zip directory
                     try:
-                        shutil.move(run, 'Zielordner\\%s\\'%(str(user).strip('\[\'\'\]')))
-        #                shutil.move(run, str(target_dir))
-                    except shutil.Error:
-                        shutil.move(run, 'Zielordner\\%s\\%s'%(str(user).strip('\[\'\'\]'),run+'(duplicate)'))
-                        print('%s %s is a duplicate! File was renamed and moved.'%(timestamp,run))
-                        pass
+                        shutil.move('%s.zip'%(run), '..\\MSD_Data\\%s\\'%(str(user).strip('\[\'\'\]')))#moves zipfiles to MSD_Data
                     except:
-                        print('%s No directory for %s at target location.' %(timestamp,run))
+                        shutil.move('%s.zip'%(run), '..\\MSD_Data\\%s\\%s'%(str(user).strip('\[\'\'\]'),str(zipstamp+' - '+run)+'.zip'))#moves zipfiles renamed to MSD_Data
+                        pass
+                    try:
+                        shutil.move(run, 'Zielordner\\%s\\\\'%(str(user).strip('\[\'\'\]')))#move files to user folder
+                        #shutil.move(run, str(target_dir))#move files to user folder
+                    except:
+                        shutil.move(run, 'Zielordner\\%s\\%s'%(str(user).strip('\[\'\'\]'),str(zipstamp+' - '+run)))#move files renamed to user folder
+                        #shutil.move(run, str(target_dir2))#move files renamed to user folder
+                        print('%s %s is a duplicate! File was renamed and moved.\n Please make sure the users folder exists!'%(timestamp,run))
+                        pass
                 else:
                     pass
-    time.sleep(2700) #time between copy cycles (2700 = 45 min)
+    print('going to sleep...\n')
+    time.sleep(20) #time between copy cycles (2700 = 45 min)
 
+while True:
+    copyscript()# the loop needs to be called as a function to delete all assigned variables after each loop

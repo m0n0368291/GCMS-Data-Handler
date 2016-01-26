@@ -1,0 +1,28 @@
+                                                 Area Percent Report
+
+  Data Path : Z:\FM\
+  Data File : FMP3061.D                                           
+  Acq On    : 12 Nov 2014  13:59
+  Operator  : Florian
+  Sample    : Allylboranat Säule Spot 1
+  Misc      : 50-5-10-320, BPX-5, 25m
+  ALS Vial  : 1   Sample Multiplier: 1
+
+  Integration Parameters: events.e
+  Integrator: ChemStation
+
+  Method    : C:\msdchem\1\METHODS\DEFAULT.M
+  Title     :  
+
+  Signal     : TIC: FMP306
+
+ peak  R.T. first  max last  PK   peak      corr.   corr.    % of
+   #   min   scan scan scan  TY  height     area    % max.   total
+ ---  ----- ----- ---- ---- ---  -------   -------  ------  -------
+  1  18.477  2870 2875 2884 BV 2   52059    781252 100.00%  64.090%
+  2  20.013  3156 3162 3170 BV 2   28508    437745  56.03%  35.910%
+ 
+ 
+                        Sum of corrected areas:     1218997
+
+DEFAULT.M Wed Nov 12 17:03:29 2014   

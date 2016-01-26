@@ -1,9 +1,0 @@
-[contents]
-count=1
-Name=,Z:\FM\FMP3061.D
-1=,INT TIC: FMP306
-[INT TIC: FMP306]
-Time=,Wed Nov 12 17:03:29 2014
-Header=,"Peak","R.T.","First","Max","Last","PK  TY","Height","Area","Pct Max","Pct Total"
-1=,  1, 18.477, 2870,2875,2884,"BV 2",  52059,   781252,100.00, 64.090
-2=,  2, 20.013, 3156,3162,3170,"BV 2",  28508,   437745, 56.03, 35.910
