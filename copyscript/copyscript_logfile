@@ -1,0 +1,48 @@
+2016-09-09 13:08:50,003, INFO    , 2016-09-09 11:08:49 Run JBG001.D erkannt
+2016-09-09 13:08:50,006, INFO    , 2016-09-09 11:08:49 Zugehoerigkeit erkannt: JBG001.D -> JB
+2016-09-09 13:08:50,016, INFO    , Folder moved successfully!
+2016-09-09 13:08:50,022, INFO    , 2016-09-09 11:08:49 Run MS123.D erkannt
+2016-09-09 13:08:50,023, INFO    , 2016-09-09 11:08:49 Run MSP219.D erkannt
+2016-09-09 13:16:44,873, INFO    , 2016-09-09 11:16:44 Run 1454425993.4329143 erkannt
+2016-09-09 13:16:44,879, INFO    , 2016-09-09 11:16:44 Run 1454425993.6360395 erkannt
+2016-09-09 13:16:44,879, INFO    , 2016-09-09 11:16:44 Run 1454425993.7454145 erkannt
+2016-09-09 13:16:44,880, INFO    , 2016-09-09 11:16:44 Run 1454425994.0735455 erkannt
+2016-09-09 13:21:11,473, INFO    , 2016-09-09 11:21:11 Run 1454425993.4329143 erkannt
+2016-09-09 13:21:11,477, INFO    , 2016-09-09 11:21:11 Run 1454425993.6360395 erkannt
+2016-09-09 13:21:11,478, INFO    , 2016-09-09 11:21:11 Run 1454425993.7454145 erkannt
+2016-09-09 13:21:11,478, INFO    , 2016-09-09 11:21:11 Run 1454425994.0735455 erkannt
+2016-09-09 13:22:47,262, INFO    , 2016-09-09 11:22:47 Run MS123.D erkannt
+2016-09-09 13:22:47,266, INFO    , 2016-09-09 11:22:47 Zugehoerigkeit erkannt: MS123.D -> MS
+2016-09-09 13:22:47,531, INFO    , Folder moved successfully!
+2016-09-09 13:22:47,533, INFO    , 2016-09-09 11:22:47 Run MSP219.D erkannt
+2016-09-09 13:22:47,533, INFO    , 2016-09-09 11:22:47 Zugehoerigkeit erkannt: MSP219.D -> MS
+2016-09-09 13:23:50,199, INFO    , 2016-09-09 11:23:50 Run MSP219.D erkannt
+2016-09-09 13:23:50,202, INFO    , 2016-09-09 11:23:50 Zugehoerigkeit erkannt: MSP219.D -> MS
+2016-09-09 13:23:50,351, INFO    , Folder moved successfully!
+2016-09-09 13:23:50,353, INFO    , 2016-09-09 11:23:50 Run MST241.D erkannt
+2016-09-09 13:23:50,353, INFO    , 2016-09-09 11:23:50 Zugehoerigkeit erkannt: MST241.D -> MST
+2016-09-09 13:23:51,778, INFO    , Folder moved successfully!
+2016-09-09 13:23:51,779, INFO    , 2016-09-09 11:23:50 Run MSTN123.D erkannt
+2016-09-09 13:23:51,779, INFO    , 2016-09-09 11:23:50 Zugehoerigkeit erkannt: MSTN123.D -> MST
+2016-09-09 13:23:51,925, INFO    , Folder moved successfully!
+2016-09-09 13:30:13,427, INFO    , 2016-09-09 11:30:13 Run HB_123.D erkannt
+2016-09-09 13:30:13,429, INFO    , 2016-09-09 11:30:13 Zugehoerigkeit erkannt: HB_123.D -> HB
+2016-09-09 13:30:13,434, INFO    , Folder moved successfully!
+2016-09-09 13:30:13,437, INFO    , 2016-09-09 11:30:13 Run MS123.D erkannt
+2016-09-09 13:30:13,437, INFO    , 2016-09-09 11:30:13 Zugehoerigkeit erkannt: MS123.D -> MS
+2016-09-09 13:30:13,554, INFO    , Folder moved successfully!
+2016-09-09 13:30:13,554, INFO    , 2016-09-09 11:30:13 Run MSP219.D erkannt
+2016-09-09 13:30:13,554, INFO    , 2016-09-09 11:30:13 Zugehoerigkeit erkannt: MSP219.D -> MS
+2016-09-09 13:30:13,684, INFO    , Folder moved successfully!
+2016-09-09 13:30:13,684, INFO    , 2016-09-09 11:30:13 Run MSTN123.D erkannt
+2016-09-09 13:30:13,684, INFO    , 2016-09-09 11:30:13 Zugehoerigkeit erkannt: MSTN123.D -> MST
+2016-09-09 13:30:13,840, INFO    , Folder moved successfully!
+2016-09-12 12:47:35,979, INFO    , 2016-09-12 10:47:35 Run MS123.D erkannt
+2016-09-12 12:47:35,983, INFO    , 2016-09-12 10:47:35 Zugehoerigkeit erkannt: MS123.D -> MS
+2016-09-12 12:47:36,170, INFO    , Folder moved successfully!
+2016-09-12 12:47:36,173, INFO    , 2016-09-12 10:47:35 Run MSP219.D erkannt
+2016-09-12 12:47:36,173, INFO    , 2016-09-12 10:47:35 Zugehoerigkeit erkannt: MSP219.D -> MS
+2016-09-12 12:47:36,352, INFO    , Folder moved successfully!
+2016-09-12 12:49:45,588, INFO    , 2016-09-12 10:49:45 Run HB_123.D erkannt
+2016-09-12 12:49:45,590, INFO    , 2016-09-12 10:49:45 Zugehoerigkeit erkannt: HB_123.D -> HB
+2016-09-12 12:49:45,601, INFO    , Folder moved successfully!

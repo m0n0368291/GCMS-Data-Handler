@@ -1,0 +1,25 @@
+                               Area Percent Report
+
+  Data File : D:\HPCHEM\1\DATA\EB219.D                     Vial: 1
+  Acq On    :  9 Feb 2005  12:14                       Operator: elena
+  Sample    : Weinreb_3 Fr.39-47                       Inst    : GC/MS Ins
+  Misc      : 50-5-10-320, bpx-5, 25 m                 Multiplr: 1.00
+                                                  Sample Amount: 0.00
+  MS Integration Params: events.e  
+
+  Method    : D:\HPCHEM\1\METHODS\SELMA.M (Chemstation Integrator)
+  Title     :  
+
+  Signal    : TIC
+
+ peak  R.T. first  max last  PK   peak      corr.   corr.    % of
+   #   min   scan scan scan  TY  height     area    % max.   total
+ ---  ----- ----- ---- ---- ---  -------   -------  ------  -------
+  1  14.437   743  747  758 BB    471811   7911170  34.06%  16.696%
+  2  17.569   991  997 1001 BV   1042012  16249271  69.97%  34.293%
+  3  27.890  1812 1821 1829 BV   1143842  23223885 100.00%  49.012%
+ 
+ 
+                        Sum of corrected areas:    47384326
+
+  EB219.D  SELMA.M      Wed Feb 09 12:44:02 2005    
