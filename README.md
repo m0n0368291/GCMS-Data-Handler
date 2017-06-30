@@ -10,7 +10,7 @@ This tool provides file sorting and backup functionality for **gas chromatograph
 - the script provides a log file with all conducted operations
 
 ## How does it work? ##
-
+![Workflow of GCMSDH](https://bytebucket.org/m0n0368291/copyscript/copyscript/static/workflow.png)
 
 
 ## How do I get set up? ##
