@@ -16,7 +16,14 @@ This tool provides file sorting and backup functionality for **gas chromatograph
 ## How do I get set up? ##
 The tool is written in pure Python (3.5). There are no third party modules needed. You just need a working install of Python 3.X.
 
-Copy the GCMSDH.py into the default location of the files to be sorted. For Agilent Systems this might be ``D:\MSD_data\``.
+- Copy the GCMSDH.py into the default location of the files to be sorted. For Agilent Systems this might be ``D:\MSD_data\``. 
+- Create a backup folder which contains all necessary subfolders for the sorting operations. 
+- Create a folder at a chosen location which contains all necessary subfolders for the sorting operations.
+- Open GCMSDH.py and edit the configurations lines as needed:
+-- ``path`` and ``files`` to declare where the default file location is.
+-- acronyms to be used for sorting by entering the into the list of ``users``.
+-- ``target_dir`` and ``target_dir2`` for the location where the files will be sorted.
+-- ``pattern`` defines the regular expression that is used to associate the files with the subfolders that they will be sorted into.
 
 
 ## Contribution guidelines ##
