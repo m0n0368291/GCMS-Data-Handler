@@ -1,6 +1,6 @@
 # GCMS Data Handler #
 
-This tool provides file sorting and backup functionality for **gas chromatography** systems.
+This tool provides file sorting and backup functionality for **gas chromatography** systems. 
 
 ## Features ##
 
@@ -15,6 +15,8 @@ This tool provides file sorting and backup functionality for **gas chromatograph
 
 ## How do I get set up? ##
 The tool is written in pure Python (3.5). There are no third party modules needed. You just need a working install of Python 3.X.
+
+Copy the GCMSDH.py into the default location of the files to be sorted. For Agilent Systems this might be ``D:\MSD_data\``.
 
 
 ## Contribution guidelines ##
