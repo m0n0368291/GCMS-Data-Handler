@@ -20,7 +20,7 @@ import logging
 ###CONFIGURATION###
 
 #logging module parameters for the logfile
-logging.basicConfig(level=logging.DEBUG, filename='copyscript_logfile', filemode='a+', format='%(asctime)-15s, %(levelname)-8s, %(message)s')
+logging.basicConfig(level=logging.DEBUG, filename='GCMSDH_logfile', filemode='a+', format='%(asctime)-15s, %(levelname)-8s, %(message)s')
 
 #relative path from Python Script to files
 files = os.listdir(r'.')
@@ -68,16 +68,14 @@ def copyscript():
 						shutil.move('%s.zip'%(run), r'Backup\\%s\\%s'%(str(user).strip('\[\'\'\]'),str(zipstamp+' - '+run)+'.zip'))#moves zipfiles renamed to MSD_Data
 						pass
 					try:#tries to move folder to GCMS folder
-						shutil.move(run, 'Zielordner\%s\\'%(str(user).strip('\[\'\'\]')))#move files to user folder --test version
-						#shutil.move(run, str(target_dir))#move files to user folder
+						shutil.move(run, str(target_dir))#move files to user folder
 						print('Folder moved successfully!')
 						logging.info('Folder moved successfully!')
 					except:#tries to move folder to GCMS folder
 						pass
 
 						try:
-							shutil.move(run, 'Zielordner\\%s\\%s'%(str(user).strip('\[\'\'\]'),str(zipstamp+' - '+run)))#move files renamed to user folder --test version
-							#shutil.move(run, str(target_dir2))#move files renamed to user folder
+							shutil.move(run, str(target_dir2))#move files renamed to user folder
 							print('%s %s is a duplicate! File was renamed and moved.\n Please make sure the users folder exists on server and in backup folder!'%(timestamp,run))#prints warning for duplicate file names
 							logging.info('%s %s is a duplicate! File was renamed and moved.\n Please make sure the users folder exists on server and in backup folder!'%(timestamp,run))
 						except:
