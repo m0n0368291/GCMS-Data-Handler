@@ -9,13 +9,24 @@ This tool provides file sorting and backup functionality for **gas chromatograph
 - backup of zipped files into a specified backup folder
 - the script provides a log file with all conducted operations
 
-## How does it work? ##
-<img src="https://bytebucket.org/m0n0368291/copyscript/raw/9a2e060a2362809eb7d4fbd168f683a99f7a67b6/copyscript/static/workflow.png?token=8b29c9cb196c6746392a827122f217f5f33b2f90" alt="Workflow of GCMSDH" style="width:50%;">
 
 ![Workflow of GCMSDH](https://bytebucket.org/m0n0368291/copyscript/raw/9a2e060a2362809eb7d4fbd168f683a99f7a67b6/copyscript/static/workflow.png?token=8b29c9cb196c6746392a827122f217f5f33b2f90)
 
 
-## How do I get set up? ##
+## How does it work? ##
+
+The script is in a **timed loop**. After a given time it iterates over all files in the default location and recognizes all files that have been specified in the configuration of the script. It **creates a zipped copy** of that file **in the backup folder**. Then the original file is moved to a target directory where multpile subfolders may exist. The script **places the files in specified subfolders**. The subfolder corresponding to a file is computed by using a regular expression. So the **name of a file determines the subfolder** it is placed in. This way one can **sort the files by person, date, project etc**.
+
+###Handling of duplicates###
+
+The script was written to **never delete or overwrite anything** so that no data is lost. In order to work, the script can deal with duplicate files. If the script tries to back up a zipped file that already exists in the backup folder, it renames the new file to begin with a **unique timestamp**. The same applies for the files in the respective subfolders.
+
+### Logging ###
+
+The script keeps a log of alle performed actions. This should make it easier to **troubleshoot** a non-working script and to **track down missing files**. The log file is a simple text document in the same folder as the copyscript.
+
+
+# How do I get set up? #
 The tool is written in pure Python (3.5). There are no third party modules needed. You just need a working install of Python 3.X.
 
 - Copy the GCMSDH.py into the default location of the files to be sorted. For Agilent Systems this might be ``D:\MSD_data\``. 
@@ -28,10 +39,11 @@ The tool is written in pure Python (3.5). There are no third party modules neede
     - ``pattern`` defines the regular expression that is used to associate the files with the subfolders that they will be sorted into.
 
 
-## Contribution guidelines ##
+# Contribution guidelines #
+
 There is no way to contribute yet.
 
 
-## Who do I talk to? ##
+# Who do I talk to? #
 
 Contact me via christopher_grimm@gmx.de
