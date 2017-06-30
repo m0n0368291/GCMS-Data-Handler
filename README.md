@@ -16,7 +16,7 @@ This tool provides file sorting and backup functionality for **gas chromatograph
 
 The script is in a **timed loop**. After a given time it iterates over all files in the default location and recognizes all files that have been specified in the configuration of the script. It **creates a zipped copy** of that file **in the backup folder**. Then the original file is moved to a target directory where multpile subfolders may exist. The script **places the files in specified subfolders**. The subfolder corresponding to a file is computed by using a regular expression. So the **name of a file determines the subfolder** it is placed in. This way one can **sort the files by person, date, project etc**.
 
-##Handling of duplicates##
+###Handling of duplicates###
 
 The script was written to **never delete or overwrite anything** so that no data is lost. In order to work, the script can deal with duplicate files. If the script tries to back up a zipped file that already exists in the backup folder, it renames the new file to begin with a **unique timestamp**. The same applies for the files in the respective subfolders.
 
