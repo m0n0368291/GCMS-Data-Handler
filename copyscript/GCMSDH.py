@@ -7,7 +7,8 @@ import re
 import time
 import zipfile
 import logging
-
+import win32security
+import ntsecuritycon as con
 
 '''
 + The script will not overwrite existing folders on the network drive! Make sure that you remove duplicates by hand if necessary.
@@ -26,12 +27,14 @@ logging.basicConfig(level=logging.DEBUG, filename='GCMSDH_logfile', filemode='a+
 files = os.listdir(r'.')
 # r'.' means it is the same directory
 
+account = r"Stefan"
+#user account of the computer
+
 #list of acronyms to be used:
 users = ['XX','CG', 'TG', 'MST', 'FM', 'JB','JC', 'HB', 'LZ', 'NT', 'VP', 'MM', 'MS', 'PP', 'SK', 'JK', 'ME', 'RE', 'SR', 'DV']
 
 #the default path for the data files to be handled
 path = r"..\\MSD_data\\"
-
 
 def copyscript():
 	timestamp = strftime("%Y-%m-%d %H:%M:%S", gmtime())#format of timestamp
@@ -39,7 +42,15 @@ def copyscript():
 	files = sorted(os.listdir(r'.'), key=os.path.getctime)# creates list of files ordered by creation time
 	print('%s Beginning new copy cycle...'%(timestamp))
 	files2 = []#empty list
-	os.chmod(path, 0o777)#this enables write access to all files
+####################WINDOWS FILE SYSTEM PERMISSION##############################################################
+	userx, domain, type = win32security.LookupAccountName ("", account)
+	sd = win32security.GetFileSecurity(path, win32security.DACL_SECURITY_INFORMATION)
+	dacl = sd.GetSecurityDescriptorDacl()   # instead of dacl = win32security.ACL()
+	dacl.AddAccessAllowedAce(win32security.ACL_REVISION, con.FILE_GENERIC_READ | con.FILE_GENERIC_WRITE, userx)
+	sd.SetSecurityDescriptorDacl(1, dacl, 0)   # may not be necessary
+	win32security.SetFileSecurity(path, win32security.DACL_SECURITY_INFORMATION, sd)
+#################################################################################################################
+	#os.chmod(path, 0o777)#this enables write access to all files on linux systems
 	for filename in files:
 		if str(filename).endswith('.D'):#only selects files ending with '.D'
 			files2.append(filename)#list is filled with all run names
