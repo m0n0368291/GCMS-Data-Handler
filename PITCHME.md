@@ -16,7 +16,8 @@
 ![Retrosynthesis Isophorol]presentations/Darwinolide_retrosynthesis_isophorol.png
 
 
----?image=presentations/Darwinolide_black.png
+---
+![Synthesis]presentations/Darwinolide_black.png
 
 --- 
 
