@@ -10,14 +10,14 @@
 * Jana Caspers
 
 ---
-![Retrosynthesis]presentations/Darwinolide_retrosynthesis.png
+![Retrosynthesis](presentations/Darwinolide_retrosynthesis.png)
 
 +++
-![Retrosynthesis Isophorol]presentations/Darwinolide_retrosynthesis_isophorol.png
+![Retrosynthesis Isophorol](presentations/Darwinolide_retrosynthesis_isophorol.png)
 
 
 ---
-![Synthesis]presentations/Darwinolide_black.png
+![Synthesis](presentations/Darwinolide_black.png)
 
 --- 
 
