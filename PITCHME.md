@@ -1,16 +1,21 @@
-# Molecule of the month
-
-> *Darkness shall prevail*
-
----
-
-![Synthesis](presentations/Darwinolide_black.png)
+## Molecule of the month
 
 +++
 
-Beste Prezi digga
+###Team Darth Sidious
+* Christopher Grimm
+* Tim Harig
+* Vincent Perl
+* Nargis Khakin Taniwal
+* Jana Caspers
 
----
+---?image=presentations/Retrosynthesis_black.png
 
-* test 1
-* test 2
++++?image=presentations/Darwinolide_retrosynthesis_isophorol.png
+
+
+---?image=presentations/Darwinolide_black.png
+
+--- ##Join the dark side!
+
+
