@@ -4,7 +4,7 @@
 
 ---
 
-![Synthesis](presentations/darwinolide_black.png)
+![Synthesis](presentations/Darwinolide_black.png)
 
 ---
 
