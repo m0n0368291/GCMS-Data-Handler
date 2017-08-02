@@ -9,9 +9,11 @@
 * Nargis Khakin Taniwal
 * Jana Caspers
 
----?image=presentations/Darwinolide_retrosynthesis.png
+---
+![Retrosynthesis]presentations/Darwinolide_retrosynthesis.png
 
-+++?image=presentations/Darwinolide_retrosynthesis_isophorol.png
++++
+![Retrosynthesis Isophorol]presentations/Darwinolide_retrosynthesis_isophorol.png
 
 
 ---?image=presentations/Darwinolide_black.png
