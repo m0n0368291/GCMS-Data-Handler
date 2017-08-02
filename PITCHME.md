@@ -12,14 +12,11 @@
 ---
 ![Retrosynthesis](presentations/Darwinolide_retrosynthesis.png)
 
-+++?image=presentations/Darwinolide_retrosynthesis_isophorol.png&size=auto 90%
-+++
-![Retrosynthesis Isophorol](presentations/Darwinolide_retrosynthesis_isophorol.png)
+---
+![Retrosynthesis Isophorol](presentations/Darwinolide_synthesis1.png)
 
 ---
-![Synthesis](presentations/Darwinolide_black.png)
-
-+++
+![Synthesis](presentations/Darwinolide_synthesis2.png)
 
 --- 
 ##Summary
@@ -27,6 +24,8 @@
 * probably only two stereoisomers
 *
 *
+
++++
 
 ##Join the dark side!
 
