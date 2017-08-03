@@ -2,7 +2,7 @@
 
 +++
 
-###Team Darth Sidious
+##Team Darth Sidious
 * Christopher Grimm
 * Tim Harig
 * Vincent Perl
@@ -22,11 +22,11 @@
 ##Summary
 * longest linear sequence: 9
 * probably only two stereoisomers
-*
+* 
 *
 
 +++
 
-##Join the dark side!
+#Join the dark side!
 
 
