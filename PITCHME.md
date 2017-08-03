@@ -1,8 +1,11 @@
-## Molecule of the month
+# Molecule 
+# of the 
+# Month
 
 +++
 
-##Team Darth Sidious
+### Team 
+## Darth Sidious
 * Christopher Grimm
 * Tim Harig
 * Vincent Perl
@@ -22,8 +25,7 @@
 ##Summary
 * longest linear sequence: 9
 * probably only two stereoisomers
-* 
-*
+
 
 +++
 
