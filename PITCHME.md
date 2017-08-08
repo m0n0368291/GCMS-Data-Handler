@@ -26,17 +26,26 @@
 ### Synthesis
 +++
 ![Synthesis](presentations/Synthese1.png)
+
+
 +++
 ![Synthesis](presentations/Synthese2.png)
+
+
 +++
 ![Synthesis](presentations/Synthese3.png)
+
+
 +++
 ![Synthesis](presentations/Synthese4.png)
+
+
 
 ---?image=presentations/background.png
 ## Summary
 - longest linear sequence: 9
 - probably only two stereoisomers
+
 ![Synthesis](presentations/comparison.png)
 
 +++
