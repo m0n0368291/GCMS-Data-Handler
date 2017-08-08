@@ -1,3 +1,4 @@
+?image=presentations/background.png
 # Molecule 
 # of the 
 # Month
@@ -12,20 +13,31 @@
 * Nargis Khakin Taniwal
 * Jana Caspers
 
----
-![Retrosynthesis](presentations/Darwinolide_retrosynthesis.png)
+---?image=presentations/background.png
+### Retrosynthesis
++++
+![Retrosynthesis](presentations/Retrosynthese1.png)
++++
+![Retrosynthesis](presentations/Dendrillol1.png)
++++
+![Retrosynthesis Isophorol](presentations/Retrosynthese2.png)
 
----
-![Retrosynthesis Isophorol](presentations/Darwinolide_synthesis1.png)
+---?image=presentations/background.png
+### Synthesis
++++
+![Synthesis](presentations/Synthese1.png)
++++
+![Synthesis](presentations/Synthese2.png)
++++
+![Synthesis](presentations/Synthese3.png)
++++
+![Synthesis](presentations/Synthese4.png)
 
----
-![Synthesis](presentations/Darwinolide_synthesis2.png)
-
---- 
-##Summary
-* longest linear sequence: 9
-* probably only two stereoisomers
-
+---?image=presentations/background.png
+## Summary
+- longest linear sequence: 9
+- probably only two stereoisomers
+![Synthesis](presentations/comparison.png)
 
 +++
 
