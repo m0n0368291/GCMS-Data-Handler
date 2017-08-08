@@ -17,10 +17,13 @@
 ### Retrosynthesis
 +++
 ![Retrosynthesis](presentations/Retrosynthese1.png)
-+++
-![Retrosynthesis](presentations/Dendrillol1.png)
+
+Abad A.; Arno M.; Marin M.L.; Zaragoza R.J., 1991: First synthetic approach to spongian 
+pentacyclic diterpenoids enantioselective synthesis of dendrillol 1. Synlett (11): 789-791
 +++
 ![Retrosynthesis Isophorol](presentations/Retrosynthese2.png)
+
+F. W. Nader, W. Heinrich, M. Baar-Schäfer, E. Hangel, Chem. Ber. 1985, 118, 4314-4329.
 
 ---?image=presentations/background.png
 ### Synthesis
