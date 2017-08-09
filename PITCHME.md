@@ -47,9 +47,9 @@
 
 ---?image=presentations/background.png
 ## Summary
-- <font size="3">longest linear sequence: 9</font>
-- <font size="3">probably only two stereoisomers</font>
-- <font size="3">commercially available educts</font>
+<font size="3">- longest linear sequence: 9</font>
+<font size="3">- probably only two stereoisomers</font>
+<font size="3">- commercially available educts</font>
 
 ![Synthesis](presentations/comparison.png)
 
