@@ -28,7 +28,7 @@
 +++
 ![Synthesis](presentations/Synthese1.png)
 
-<sup>Abad A., Arno M., Marin M.L., Zaragoza R.J., *Synlett*, 11, 789-791.</sup>
+<font size="6">Abad A., Arno M., Marin M.L., Zaragoza R.J., *Synlett*, 11, 789-791.</font>
 
 +++
 ![Synthesis](presentations/Synthese2.png)
@@ -37,14 +37,13 @@
 +++
 ![Synthesis](presentations/Synthese3.png)
 
-<sup>J.T. Bindert, C.J. Cordier, G.C. Fu, *J. Am. Chem. Soc.*, 2012, 134 (41), 17003–17006.</sup>
+<font size="6">J.T. Bindert, C.J. Cordier, G.C. Fu, *J. Am. Chem. Soc.*, 2012, 134 (41), 17003–17006.</font>
 
 +++
 ![Synthesis](presentations/Synthese4.png)
 
-<sup>F. W. Nader, W. Heinrich, M. Baar-Schäfer, E. Hangel, *Chem. Ber.*, 1985, 118, 4314-4329.</sup>
-
-<sup>P. J. Garratt, C. W. Doecke, J. C. Weber, L. A. Paquette, *J. Org. Chem.*, 1986, 51, 449-452.</sup>
+<font size="6">F. W. Nader, W. Heinrich, M. Baar-Schäfer, E. Hangel, *Chem. Ber.*, 1985, 118, 4314-4329.</font>
+<font size="6">P. J. Garratt, C. W. Doecke, J. C. Weber, L. A. Paquette, *J. Org. Chem.*, 1986, 51, 449-452.</font>
 
 ---?image=presentations/background.png
 ## Summary
