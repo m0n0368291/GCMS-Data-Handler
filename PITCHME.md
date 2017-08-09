@@ -49,6 +49,7 @@
 ## Summary
 - longest linear sequence: 9
 - probably only two stereoisomers
+- commercially available educts
 
 ![Synthesis](presentations/comparison.png)
 
