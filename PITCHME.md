@@ -40,7 +40,7 @@ Abad A., Arno M., Marin M.L., Zaragoza R.J., *Synlett*, 11, 789-791.
 J.T. Bindert, C.J. Cordier, G.C. Fu, *J. Am. Chem. Soc.*, 2012, 134 (41), 17003–17006.
 
 +++
-![Synthesis](presentations/Synthese4.png)
+![Synthesis](presentations/Synthese3.png)
 
 F. W. Nader, W. Heinrich, M. Baar-Schäfer, E. Hangel, *Chem. Ber.*, 1985, 118, 4314-4329.
 
