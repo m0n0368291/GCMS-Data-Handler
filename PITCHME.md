@@ -41,8 +41,9 @@ F. W. Nader, W. Heinrich, M. Baar-Schäfer, E. Hangel, Chem. Ber. 1985, 118, 431
 
 +++
 ![Synthesis](presentations/Synthese4.png)
+F. W. Nader, W. Heinrich, M. Baar-Schäfer, E. Hangel, Chem. Ber., 1985, 118, 4314-4329.
 
-
+P. J. Garratt, C. W. Doecke, J. C. Weber, L. A. Paquette, J. Org. Chem., 1986, 51, 449-452.
 
 ---?image=presentations/background.png
 ## Summary
