@@ -37,14 +37,14 @@
 +++
 ![Synthesis](presentations/Synthese3.png)
 
-J.T. Bindert, C.J. Cordier, G.C. Fu, *J. Am. Chem. Soc.*, 2012, 134 (41), 17003–17006.
+<sup>J.T. Bindert, C.J. Cordier, G.C. Fu, *J. Am. Chem. Soc.*, 2012, 134 (41), 17003–17006.</sup>
 
 +++
 ![Synthesis](presentations/Synthese4.png)
 
-F. W. Nader, W. Heinrich, M. Baar-Schäfer, E. Hangel, *Chem. Ber.*, 1985, 118, 4314-4329.
+<sup>F. W. Nader, W. Heinrich, M. Baar-Schäfer, E. Hangel, *Chem. Ber.*, 1985, 118, 4314-4329.</sup>
 
-P. J. Garratt, C. W. Doecke, J. C. Weber, L. A. Paquette, *J. Org. Chem.*, 1986, 51, 449-452.
+<sup>P. J. Garratt, C. W. Doecke, J. C. Weber, L. A. Paquette, *J. Org. Chem.*, 1986, 51, 449-452.</sup>
 
 ---?image=presentations/background.png
 ## Summary
