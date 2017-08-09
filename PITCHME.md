@@ -18,18 +18,17 @@
 +++
 ![Retrosynthesis](presentations/Retrosynthese1.png)
 
-Abad A.; Arno M.; Marin M.L.; Zaragoza R.J., 1991: First synthetic approach to spongian 
-pentacyclic diterpenoids enantioselective synthesis of dendrillol 1. Synlett (11): 789-791
+
 +++
 ![Retrosynthesis Isophorol](presentations/Retrosynthese2.png)
 
-F. W. Nader, W. Heinrich, M. Baar-Schäfer, E. Hangel, Chem. Ber. 1985, 118, 4314-4329.
 
 ---?image=presentations/background.png
 ### Synthesis
 +++
 ![Synthesis](presentations/Synthese1.png)
 
+Abad A., Arno M., Marin M.L., Zaragoza R.J., *Synlett*, 11, 789-791.
 
 +++
 ![Synthesis](presentations/Synthese2.png)
@@ -38,12 +37,13 @@ F. W. Nader, W. Heinrich, M. Baar-Schäfer, E. Hangel, Chem. Ber. 1985, 118, 431
 +++
 ![Synthesis](presentations/Synthese3.png)
 
+J.T. Bindert, C.J. Cordier, G.C. Fu, *J. Am. Chem. Soc.*, 2012, 134 (41), 17003–17006.
 
 +++
 ![Synthesis](presentations/Synthese4.png)
-F. W. Nader, W. Heinrich, M. Baar-Schäfer, E. Hangel, Chem. Ber., 1985, 118, 4314-4329.
+F. W. Nader, W. Heinrich, M. Baar-Schäfer, E. Hangel, *Chem. Ber.*, 1985, 118, 4314-4329.
 
-P. J. Garratt, C. W. Doecke, J. C. Weber, L. A. Paquette, J. Org. Chem., 1986, 51, 449-452.
+P. J. Garratt, C. W. Doecke, J. C. Weber, L. A. Paquette, *J. Org. Chem.*, 1986, 51, 449-452.
 
 ---?image=presentations/background.png
 ## Summary
