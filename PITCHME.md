@@ -46,10 +46,10 @@
 <font size="3">P. J. Garratt, C. W. Doecke, J. C. Weber, L. A. Paquette, *J. Org. Chem.*, 1986, 51, 449-452.</font>
 
 ---?image=presentations/background.png
-## Summary
-<font size="3">- longest linear sequence: 9</font>
-<font size="3">- probably only two stereoisomers</font>
-<font size="3">- commercially available educts</font>
+### Summary
+- <font size="3">longest linear sequence: 9</font>
+- <font size="3">probably only two stereoisomers</font>
+- <font size="3">commercially available educts</font>
 
 ![Synthesis](presentations/comparison.png)
 
