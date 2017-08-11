@@ -27,16 +27,6 @@
 ### Synthesis
 +++?image=presentations/Synthese1.png&size=80% auto
 
-
-
-
-
-
-
-
-
-
-
 <font size="3">Abad A., Arno M., Marin M.L., Zaragoza R.J., *Synlett*, 11, 789-791.</font>
 
 +++?image=presentations/Synthese2.png&size=80% auto
