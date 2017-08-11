@@ -20,7 +20,7 @@
 
 +++?image=presentations/Dendrillol1.png&size=auto 40%
  
-+++?image=presentations/Retrosynthese2.png&size=80% auto
++++?image=presentations/Retrosynthese3.png&size=80% auto
 
 
 ---?image=presentations/background.png
