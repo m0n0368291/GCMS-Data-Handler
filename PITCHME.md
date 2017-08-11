@@ -20,7 +20,7 @@
 
 +++
 ![Dendrillol-1](presentations/Dendrillol1.png&size=auto 90%)
- <img src="presentations/Dendrillol1.png" alt="Dendrillol-1" height="42" width="42"> 
+ <img src="presentations/Dendrillol1.png" alt="Dendrillol-1" height="auto" width="50%"> 
 +++
 ![Retrosynthesis Isophorol](presentations/Retrosynthese2.png)
 
