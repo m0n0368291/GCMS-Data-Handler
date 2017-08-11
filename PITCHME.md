@@ -18,8 +18,7 @@
 +++
 ![Retrosynthesis](presentations/Retrosynthese1.png)
 
-+++
- ![Retrosynthesis](presentations/Dendrillol1.png)&size=auto 30%
++++?image=presentations/Dendrillol1.png&size=auto 30%
  
 +++
 ![Retrosynthesis Isophorol](presentations/Retrosynthese2.png)
