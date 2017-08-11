@@ -15,21 +15,17 @@
 
 ---?image=presentations/background.png
 ### Retrosynthesis
-+++
-![Retrosynthesis](presentations/Retrosynthese1.png)
 
 +++?image=presentations/Retrosynthese1.png&size=80% auto
 
 +++?image=presentations/Dendrillol1.png&size=auto 40%
  
-+++
-![Retrosynthesis Isophorol](presentations/Retrosynthese2.png)
++++?image=presentations/Retrosynthese2.png&size=80% auto
 
 
 ---?image=presentations/background.png
 ### Synthesis
-+++
-![Synthesis](presentations/Synthese1.png)
++++?image=presentations/Synthese1.png&size=80% auto
 
 <font size="3">Abad A., Arno M., Marin M.L., Zaragoza R.J., *Synlett*, 11, 789-791.</font>
 
