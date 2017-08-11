@@ -18,7 +18,7 @@
 +++
 ![Retrosynthesis](presentations/Retrosynthese1.png)
 
-+++?image=presentations/Retrosynthese1.png&size=auto 40%
++++?image=presentations/Retrosynthese1.png&size=80% auto
 
 +++?image=presentations/Dendrillol1.png&size=auto 40%
  
