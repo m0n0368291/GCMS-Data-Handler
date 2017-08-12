@@ -15,32 +15,28 @@
 
 ---?image=presentations/background.png
 ### Retrosynthesis
-+++
-![Retrosynthesis](presentations/Retrosynthese1.png)
 
++++?image=presentations/Retrosynthese1.png&size=80% auto
 
-+++
-![Retrosynthesis Isophorol](presentations/Retrosynthese2.png)
++++?image=presentations/Dendrillol1.png&size=auto 40%
+ 
++++?image=presentations/Retrosynthese3.png&size=80% auto
 
 
 ---?image=presentations/background.png
 ### Synthesis
-+++
-![Synthesis](presentations/Synthese1.png)
++++?image=presentations/Synthese1.png&size=80% auto
 
 <font size="3">Abad A., Arno M., Marin M.L., Zaragoza R.J., *Synlett*, 11, 789-791.</font>
 
-+++
-![Synthesis](presentations/Synthese2.png)
++++?image=presentations/Synthese2.png&size=80% auto
 
 
-+++
-![Synthesis](presentations/Synthese3.png)
++++?image=presentations/Synthese3.png&size=80% auto
 
 <font size="3">J.T. Bindert, C.J. Cordier, G.C. Fu, *J. Am. Chem. Soc.*, 2012, 134 (41), 17003–17006.</font>
 
-+++
-![Synthesis](presentations/Synthese4.png)
++++?image=presentations/Synthese4.png&size=70% auto
 
 <font size="3">F. W. Nader, W. Heinrich, M. Baar-Schäfer, E. Hangel, *Chem. Ber.*, 1985, 118, 4314-4329.</font>
 <font size="3">P. J. Garratt, C. W. Doecke, J. C. Weber, L. A. Paquette, *J. Org. Chem.*, 1986, 51, 449-452.</font>
