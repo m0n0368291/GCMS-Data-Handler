@@ -28,8 +28,8 @@ The script keeps a log of alle performed actions. This should make it easier to 
 # How do I get set up? #
 The tool is written in pure Python (3.5). There are no third party modules needed. You just need a working install of Python 3.X.
 
-- Copy the GCMSDH.py into the default location of the files to be sorted. For Agilent Systems this might be ``D:\MSD_data\``. 
-- Create a backup folder which contains all necessary subfolders for the sorting operations. 
+- Copy the GCMSDH.py into the default location of the files to be sorted. For Agilent Systems this might be ``D:\MSD_data\``.
+- Create a backup folder which contains all necessary subfolders for the sorting operations.
 - Create a folder at a chosen location which contains all necessary subfolders for the sorting operations.
 - Open GCMSDH.py and edit the configurations lines as needed:
     - ``path`` and ``files`` to declare where the default file location is.
@@ -42,7 +42,7 @@ The tool is written in pure Python (3.5). There are no third party modules neede
 There are several factors that may prevent the script from working. If the script is not working as intended, follow these steps:
 
 - check whether all necessary folders are created and the respective acronym has been added to the list of ``users``
-- make sure the default location is not *write-protected* or *read-only*
+- make sure the user executing the script has the right permissions for the folder containíng the data
 - execute the script with elevated privileges
 - manually check for duplicates
 
