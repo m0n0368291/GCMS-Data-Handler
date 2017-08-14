@@ -42,7 +42,7 @@ The tool is written in pure Python (3.5). There are no third party modules neede
 There are several factors that may prevent the script from working. If the script is not working as intended, follow these steps:
 
 - check whether all necessary folders are created and the respective acronym has been added to the list of ``users``
-- make sure the user executing the script has the right permissions for the folder containíng the data
+- make sure the user executing the script has the right permissions for the folder containing the data
 - execute the script with elevated privileges
 - manually check for duplicates
 
