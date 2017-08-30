@@ -72,7 +72,8 @@ def copyscript():
             if re.match(pattern, run.upper()):
                 # makes sure upper and lower case dont matter
                 print('%s File allocated: %s -> %s' % (timestamp, run, user))
-                logging.info('%s File allocated: %s -> %s' % (timestamp, run, user))
+                logging.info('%s File allocated: %s -> %s' % (timestamp,
+                                                              run, user))
                 shutil.make_archive(run, 'zip', run)
                 # compress folder to zipfile with the filename 'run'
                 try:  # tries to move zipfile to backup folder
@@ -83,14 +84,12 @@ def copyscript():
                     shutil.move('%s.zip' % (run), r'Backup\\%s\\%s' %
                                 (str(user).strip('\[\'\'\]'),
                                 (zipstamp+' - '+run)+'.zip'))
-                    pass
                 try:  # tries to move folder to GCMS folder
                     shutil.move(run, str(target_dir))
                     # move files to user folder
                     print('Folder moved successfully!')
                     logging.info('Folder moved successfully!')
                 except:  # tries to move folder to GCMS folder
-                    pass
                     try:
                         shutil.move(run, str(target_dir2))
                         # move files renamed to user folder
@@ -102,7 +101,6 @@ def copyscript():
                         renamed and moved.\n Please make sure the users'
                         folders exist!''' % (timestamp, run))
                     except:
-                        pass
                         print('Unknown Error. Maybe no file permission.')
                         logging.info('Unknown Error. File permission?')
             else:
