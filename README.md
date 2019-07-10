@@ -9,7 +9,7 @@ This tool provides file sorting and backup functionality for **gas chromatograph
 - backup of zipped files into a specified backup folder
 - the script provides a log file with all conducted operations
 
-![Workflow of GCMSDH](https://bytebucket.org/m0n0368291/copyscript/raw/9a2e060a2362809eb7d4fbd168f683a99f7a67b6/copyscript/static/workflow.png?token=8b29c9cb196c6746392a827122f217f5f33b2f90)
+![Workflow of GCMSDH](https://github.com/m0n0368291/GCMS-Data-Handler/blob/master/copyscript/static/workflow.png)
 
 
 ### How does it work? ###
