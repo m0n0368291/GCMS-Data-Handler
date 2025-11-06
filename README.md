@@ -54,8 +54,3 @@ There are several factors that may prevent the script from working. If the scrip
 ### Contribution guidelines ###
 
 There is no way to contribute yet.
-
-
-### Who do I talk to? ###
-
-Contact me via christopher_grimm@gmx.de
